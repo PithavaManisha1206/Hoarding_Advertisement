@@ -8,6 +8,7 @@ $ac_contact_mo=$_POST['ac_contact_mo'];
 $ac_contact_person=$_POST['ac_contact_person'];
 $hc_id=$_POST['hc_id'];
 
+
 $path ="ac_logo/".$_FILES['ac_logo']['name'];		
 move_uploaded_file($_FILES['ac_logo']['tmp_name'],$path);
 	
